@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+html {
+    margin: 0;
+    width: 380px;
+}
+
+body {
+    width: 380px;
+}
+
+h3 {
+    margin: auto;
+    margin-left: 25%;
+    width: 70%;
+    padding: 10px;
+    font-family: 'Special Elite', cursive;
+    color: rgb(199, 27, 27);
+}
+
+canvas {
+    display: block;
+    width: 380px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    z-index: -10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

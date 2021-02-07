@@ -1,0 +1,49 @@
+.btnn {
+    background-color: white;
+    border: none;
+    margin-left: 5px;
+    color: white;
+    padding: 11px 8px 0px 8px;
+    font-size: 36px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+
+/* Darker background on mouse-over */
+
+.btnn:hover {
+    background-color: rgb(195, 197, 199);
+}
+
+.btnn:nth-child(1) {
+    background-color: white;
+}
+
+.btnn:nth-child(1):hover {
+    background-color: rgb(98, 99, 100);
+}
+
+.gh {
+    color: rgb(98, 99, 100);
+}
+
+.gh:hover {
+    color: white;
+}
+
+.btnn:nth-child(2) {
+    background-color: #82c91e;
+}
+
+.btnn:nth-child(2):hover {
+    background-color: white;
+}
+
+.wa {
+    color: white;
+}
+
+.wa:hover {
+    color: #82c91e;
+}

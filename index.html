@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KAANDIT</title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./Todo/style.css" />
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css" />
+    <script src="./Todo/jquery-1.12.4.min.js"></script>
+    <script src="./Todo/jquery.cookie.min.js"></script>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./btn.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <script src="./Todo/a076d05399.js"></script>
+    <script src="./Todo/anime.min.js"></script>
+    <script src="./Todo/sweetalert2@10.js"></script>
+</head>
+
+<body>
+    <h3>Ease WorkPlace</h3>
+    <div class="container">
+        <a class="btnn" href="https://github.com/anandiiitbh" target="_blank"><i class="fab fa-github gh" style="font-size: 48px;"></i></a>
+        <a class="btnn" href="https://web.whatsapp.com/" target="_blank"> <i class="fab fa-whatsapp wa" style="font-size: 48px;"></i></a>
+        <a class="btnn" href="https://mail.google.com/mail/u/1/#inbox" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/512px-Gmail_icon_%282020%29.svg.png" style="margin:0;top:0;vertical-align: unset;max-width: 46px; max-height: 30px; " /></a>
+        <a class="btnn" href="https://github.com/anandiiitbh" target="_blank"><i class="fab fa-github gh" style="font-size: 48px;"></i></a>
+        <a class="btnn" href="https://github.com/anandiiitbh" target="_blank"><i class="fab fa-github gh" style="font-size: 48px;"></i></a>
+    </div>
+
+    <div class="container">
+        <div id="list" class="panel panel-default">
+            <div id="title" class="panel-heading">
+                <span class="panel-title text-center"><b>To-Do List </b></span>
+            </div>
+            <div id="input" class="panel-body">
+                <div class="input-group">
+                    <input name="add-to-list" type="text" class="form-control" placeholder="Add Item..." />
+                    <span class="input-group-btn"><button id="add" class="btn btn-primary form-control">Add!</button></span
+            >
+          </div>
+          <br />
+          <div class="btn-group">
+            <button id="clear" class="btn btn-danger">Clear List</button>
+          </div>
+        </div>
+        <div id="script-error" class="panel-body bg-warning text-warning">
+          <span class="glyphicon glyphicon-exclamation-sign"></span> Javascript isn't working correctly on your computer! The To-Do List cannot function properly!
+                </div>
+            </div>
+        </div>
+
+
+        <canvas id="c"> </canvas>
+
+        <script src="./Todo/script.js"></script>
+        <script src="background.js"></script>
+</body>
+
+</html>
